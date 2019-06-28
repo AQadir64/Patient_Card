@@ -1,0 +1,12 @@
+*{
+    font-family: fantasy;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+}
+ul{
+    font-size: 15px;
+    font-weight: 400px;
+    
+}
