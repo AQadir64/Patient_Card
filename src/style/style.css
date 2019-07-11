@@ -1,5 +1,5 @@
 *{
-    font-family: fantasy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 input{
     display: block;
@@ -9,4 +9,181 @@ ul{
     font-size: 15px;
     font-weight: 400px;
     
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    max-width: 1500px;
+}
+body{
+    background-color: whitesmoke;
+    color:black;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner {
+    display: inline;
+    max-width: 98%;
+    max-height: 500px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1%;
+    height: auto;
+}
+.banner-text {
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.banner-text p {
+    font-weight: bold;
+}
+.navbar{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 3px solid darkgray;
+    position: absolute;
+    left: 48%;
+    transform: translate(-40%,-50%);
+}
+.navbar a{
+    background-color:lightgray;
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+   text-transform: capitalize;
+}
+.navbar a:hover{
+    background-color: darkgrey;
+    padding: 15px;
+}
+.portfolio-img{
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 10px;
+
+}
+.portfolio{
+    margin: 8px -16px;
+}
+
+.portfolio,
+.portfolio> ,.column{
+    padding: 8px;
+}
+
+.portfolio::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+.slider-img {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px lightgray
+}
+.column {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    padding: 1%;
+    display: show;
+}
+.slider{
+    margin: 8px -16px;
+}
+
+.slider,
+.slider > ,.column{
+    padding: 8px;
+}
+
+.slider::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 100%;
+    background-color: white;
+}
+.contact {
+    background-color: whitesmoke;
+    color: black;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center
+}
+.contact h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0,0, 0.1);
+}
+.contact p {
+    text-align: left;
+    margin: 15px;
+    padding: 15px;
+    font-weight: 400;
+}
+
+form{
+    display: block;
+}
+
+#name,#email,#message{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+label{
+    float: left;
+    margin-bottom: 2px;
+}
+.btn{
+    margin-top: 20px;
+    margin-right: 25%;
+    border: 1px solid;
+    display: block;
+    float: right;
+    width: 50%;
+    color: white;
+    height: 40px;
+    background-color: gray;
+}
+form::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer{
+    background-color: lightgray;
+    height: 100px;
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    text-transform: capitalize;
+    text-align: center;
+}
+footer p {
+    margin-top: 2%
 }

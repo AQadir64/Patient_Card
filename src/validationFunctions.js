@@ -55,3 +55,11 @@ export const number = num => {
     return true;
   }
 };
+
+export const isEmail = str => {
+  if (!validator.isEmail(str)) {
+    return false;
+  } else {
+    return true;
+  }
+};
